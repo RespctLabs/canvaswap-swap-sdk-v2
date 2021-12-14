@@ -14,7 +14,7 @@ First clone the repository:
 git clone https://github.com/quadra-network/canvaswap-swap-sdk-v2
 ```
 
-Move into the pancakeswap-sdk working directory
+Move into the canvaswap-swap-sdk-v2 working directory
 
 ```sh
 cd canvaswap-swap-sdk-v2/
