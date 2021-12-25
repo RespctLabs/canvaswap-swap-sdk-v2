@@ -436,7 +436,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xBBdd6633Db277810e9066abA0A16aF602a0F156a', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH[exports.ChainId.TESTNET] = /*#__PURE__*/new Token(exports.ChainId.TESTNET, '0xBBdd6633Db277810e9066abA0A16aF602a0F156a', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH);
+var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xBBdd6633Db277810e9066abA0A16aF602a0F156a', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH[exports.ChainId.BSCTESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSCTESTNET, '0xBBdd6633Db277810e9066abA0A16aF602a0F156a', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
