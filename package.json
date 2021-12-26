@@ -1,7 +1,7 @@
 {
   "name": "@respctclub/sdk",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🛠 An SDK for building applications on top of Respct.club.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
