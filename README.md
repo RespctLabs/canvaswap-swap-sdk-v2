@@ -1,33 +1,5 @@
-# Canvaswap SDK
-
-Forked from the [Uniswap SDK](https://github.com/Uniswap/uniswap-v2-sdk/commit/a88048e9c4198a5bdaea00883ca00c8c8e582605).
-
-You can refer to the Uniswap SDK documentation [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
-
-## Running tests
-
-To run the tests, follow these steps. You must have at least node v10 and [yarn](https://yarnpkg.com/) installed.
-
-First clone the repository:
-
-```sh
-git clone https://github.com/quadra-network/canvaswap-swap-sdk-v2
-```
-
-Move into the canvaswap-swap-sdk-v2 working directory
-
-```sh
-cd canvaswap-swap-sdk-v2/
-```
-
-Install dependencies
-
-```sh
-yarn install
-```
-
-Run tests
-
-```sh
-yarn test
-```
+Factory     --> 0x7E1BF78FCAf743B2b135fB8E116918D18cbed9A1
+INIT HASH   --> 0xaa3cec7c96b59ea0fd2ec14c4ab0bc5dd7526d90d75adee2d375f0cb4ec91376
+WMATIC      --> 0x31915B268e1dB532205e4BC595e975e4149De709
+Router01    --> 0xF34C8A221E75AF3ddb21502Abede8314a36f517A
+MainRouter  --> 0x924fEA4BD4c52400b609350bf254Ba9414e102c5

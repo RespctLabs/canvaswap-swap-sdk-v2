@@ -35,8 +35,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = '0xC538c0661C661571032798F40c1859a9255924D9';
-var INIT_CODE_HASH = '0x148fcbc4533fccb7edad9d1a2ee78bae51efde862020bba525848fd153de376c';
+var FACTORY_ADDRESS = '0x7E1BF78FCAf743B2b135fB8E116918D18cbed9A1';
+var INIT_CODE_HASH = '0xaa3cec7c96b59ea0fd2ec14c4ab0bc5dd7526d90d75adee2d375f0cb4ec91376';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -436,7 +436,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xBBdd6633Db277810e9066abA0A16aF602a0F156a', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0xBBdd6633Db277810e9066abA0A16aF602a0F156a', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x31915B268e1dB532205e4BC595e975e4149De709', 18, 'WETH', 'Wrapped ETH', 'https://www.binance.org'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x31915B268e1dB532205e4BC595e975e4149De709', 18, 'WMatic', 'Wrapped MATIC', 'https://www.binance.org'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
